@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='product',
             name='useraccount',
-            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='Product', to='user_auth.useraccount'),
+            field=models.ForeignKey(default=6, on_delete=django.db.models.deletion.CASCADE, related_name='Product', to='user_auth.useraccount'),
             preserve_default=False,
         ),
     ]

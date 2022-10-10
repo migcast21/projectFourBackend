@@ -1,0 +1,1 @@
+web: gunicorn techy_api.wsgi
