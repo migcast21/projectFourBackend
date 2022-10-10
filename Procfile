@@ -1,1 +1,1 @@
-web: gunicorn projectfourbackend.wsgi
+web: gunicorn techy_api.wsgi
