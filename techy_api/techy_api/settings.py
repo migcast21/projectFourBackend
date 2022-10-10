@@ -107,7 +107,7 @@ DATABASES = {
 }
 
 db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+DATABASES['techy_api'].update(db_from_env)
 DATABASES['user_auth'].update(db_from_env)
 
 PASSWORD_HASHERS = [
