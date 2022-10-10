@@ -1,1 +1,1 @@
-web: gunicorn techy_api techy_api.wsgi
+web: gunicorn techy_api.wsgi
